@@ -1,10 +1,14 @@
 
 
-SPARK  INTEGRATION GUIDE 
+# SPARK  INTEGRATION GUIDE 
+# Update
 sudo apt update && apt upgrade -y  
+
+# get file
 sudo apt install default-jdk curl -y  
 wget https://dlcdn.apache.org/spark/spark-3.5.6/spark-3.5.6-bin-hadoop3.tgz  
 tar -xzvf spark-3.5.6-bin-hadoop3.tgz  
+
 sudo mv spark-3.5.6-bin-hadoop3 /opt/spark  
 nano ~/.bashrc  
 export SPARK_HOME=/opt/spark  
